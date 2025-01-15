@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        // 1.) what is console and its methods...
+
+        // Console is an object used to log information associated with webpages like network request,
+        // security error,warning and debug a code during development..
+
+        // METHODS:: console object has lots of methods..
+        // 1. console.log() => outputs message to the console.
+        console.time("process")
+        console.group()
+           console.log("hello users")
+
+         //2. console.error(); =>display an error to the console
+         console.error("this is error ")
+
+        // 3. console.warn(); => display warning message to the console
+        console.warn("this is a warning");
+
+        // 4. console.info() => display some information
+        console.info("this is some information")
+
+        // 5. console.table(); => display message in tabular form
+        var a={
+            fname:"Nitin",
+            lname:"patel"
+        }
+        console.table(a)
+
+        // 6. console.clear(); => clear the console screen
+        // console.clear()
+
+        // 7.group() and groupEnd() => log message togather
+        // 8.time() and timeEnd() => measure time taken by operation
+console.groupEnd()
+        console.timeEnd("process")
+         
+
+ // **NOTE:: console is not a part of javascript while it is a part of web API's provided by browser.,node.js
+
+        
+    </script>
+</body>
+</html>
