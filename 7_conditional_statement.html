@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>conditional statement</title>
+</head>
+<body>
+    
+    <script>
+        // 1.) What is conditional statement ? and its types........
+
+        // Conditional statement are used to perform different actions based on different condition.
+        // these statement allow your code to make decision and execute the specific block of code
+        // depending on whether the condition is true or not..
+
+        // Types::
+        // 1. If statement : Execute the block of code if specified condion is true.
+        // 2. IF-else statement : Execute one block if condition is true,execute another if condion is false.
+        // 3.If-else-if / nested if / if ladder : tests multiple condition and execute coreeseponding block
+        // of code for the first true condition. / to perform different actions based on different condition.
+        // 4.Switch statement : Execute different block of code of case statement based on the expression.
+
+        // 1. if statement :
+        let age=25;
+        if(age>=18){
+            document.write("You can go in party......<br>")
+        }
+
+        // 2. if-else statement
+        let agee=17;
+        if(agee>=18){
+            document.write("You can go in party <br>")
+        }else{
+            document.write("You can't go in party..<br>")
+        }
+
+        // 3.if-else-if statement.........
+        let percent=85;
+        if(percent<100 && percent >80){
+            document.write("A grade <br>")
+        }else if(percent<80 && percent>60){
+            document.write("B grade <br>")
+        }else if(percent<60 && percent>40){
+            document.write("C grade <br>")
+        }else{
+            document.write("FAIL")
+        }
+
+        // 4. switch statement...
+        let s=parseInt(prompt("Enter week number (1-7)"))
+        switch(s){
+            case 1:document.write("monday")
+            break;
+            case 2:document.write("tuesday")
+            break;
+            case 3:document.write("wednesday")
+            break;
+            case 4:document.write("thursday")
+            break;
+            case 5:document.write("friday")
+            break;
+            case 6:document.write("saturday")
+            break;
+            case 7:document.write("sunday")
+            break;
+            default:
+                document.write("Enter correct week number (1 - 7)")
+        }
+ 
+
+    </script>
+</body>
+</html>
