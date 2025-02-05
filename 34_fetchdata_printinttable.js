@@ -1,3 +1,4 @@
+// Fetching data from json and print inside the table of html..........
 
 async function fetch_data() {
     let fetching = await fetch("https://jsonplaceholder.typicode.com/posts");

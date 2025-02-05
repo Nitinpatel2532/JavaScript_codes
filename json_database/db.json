@@ -1,0 +1,10 @@
+{
+    "Employees":[
+        {
+            "name":"Nitin",
+            "age":23,
+            "email":"nitin@gmail.com",
+            "city":"Bhopal"
+        }
+    ]
+}
