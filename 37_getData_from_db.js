@@ -17,6 +17,7 @@
 // when we fetch the data it always add a unique id for each data........
 
 // ==================================================================================
+
 // fetch data / get data from our own json database
 
 async function fetch_database() {
@@ -33,12 +34,13 @@ async function fetch_database() {
 <td>${e.age}  </td>
 <td>${e.email}  </td>
 <td>${e.city}  </td>
+<td> <button onclick="delete_data('${e.id}') ">Delete</button>
 
     </tr>
 
     
     
-    `).join()
+    `).join("")
     document.querySelector("#database_data").innerHTML = display_data;
     
 }
